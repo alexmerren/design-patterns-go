@@ -15,7 +15,7 @@
 
 ## Structure
 
-![](../images/observer_pattern_uml.png) 
+![](../data/observer_pattern_uml.png) 
 
 ## Terminology
 
