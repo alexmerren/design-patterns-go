@@ -1,5 +1,6 @@
+# The Singleton Pattern
+
 The singleton pattern ensures that there is only one instance of an object.
-oh i love shouting
 
 This is useful in applications like thread pools, caches, loggers, etc.
 
@@ -17,3 +18,11 @@ combatted by making the class synchronized.
 This can be done in go by doing the [following](https://stackoverflow.com/questions/18880575/what-is-the-golang-equivalent-of-a-java-synchronized-block).
 
 To improve performance, we can use "double checked locking" in getInstance() method.
+
+## Structure
+
+![](../data/singleton_pattern_uml.png)
+
+## Explanation
+
+## Applicability
