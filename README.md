@@ -9,8 +9,10 @@ I am basing a lot of the information contained in this repository from the book
 
 The design patterns covered are:
 
- * [Command Pattern](command/)
- * [Decorator Pattern](decorator/)
- * [Factory Method Pattern](factoryMethod/)
- * [Observer Pattern](observer/)
- * [Singleton Pattern](singleton/)
+ * [Command Pattern](command/) :heavy_check_mark:
+ * [Decorator Pattern](decorator/) :x:
+ * [Factory Method Pattern](factoryMethod/) :x:
+ * [Observer Pattern](observer/) :heavy_check_mark:
+ * [Singleton Pattern](singleton/) :heavy_check_mark:
+ * [Adapter Pattern](adapter/) :heavy_check_mark:
+ * [Facade Pattern](facade/) :x:
