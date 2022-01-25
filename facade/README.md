@@ -18,6 +18,8 @@ defines a higher-level interface that makes the subsystem easier to use.
 
 ## Explanation
 
+Like the name suggests, the facade provides a front-facing interface that hides a complex structure. 
+
 ## Applicability
 
 The facade pattern has a couple usecases:
