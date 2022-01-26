@@ -15,4 +15,5 @@ The design patterns covered are:
  * [Observer Pattern](observer/) :heavy_check_mark:
  * [Singleton Pattern](singleton/) :heavy_check_mark:
  * [Adapter Pattern](adapter/) :heavy_check_mark:
- * [Facade Pattern](facade/) :x:
+ * [Facade Pattern](facade/) :heavy_check_mark:
+ * [Template Method](template/) :heavy_check_mark:
