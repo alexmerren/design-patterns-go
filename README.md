@@ -16,4 +16,6 @@ The design patterns covered are:
  * [Singleton Pattern](singleton/) :heavy_check_mark:
  * [Adapter Pattern](adapter/) :heavy_check_mark:
  * [Facade Pattern](facade/) :heavy_check_mark:
- * [Template Method](template/) :heavy_check_mark:
+ * [Template Method Pattern](template/) :heavy_check_mark:
+ * [Iterator Pattern](iterator/) :heavy_check_mark:
+ * [Composite Pattern](composite/) :heavy_check_mark:
