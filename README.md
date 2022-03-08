@@ -10,7 +10,7 @@ I am basing a lot of the information contained in this repository from the book
 The design patterns covered are:
 
  * [Command Pattern](command/) :heavy_check_mark:
- * [Decorator Pattern](decorator/) :x:
+ * [Decorator Pattern](decorator/) :heavy_check_mark:
  * [Factory Method Pattern](factoryMethod/) :x:
  * [Observer Pattern](observer/) :heavy_check_mark:
  * [Singleton Pattern](singleton/) :heavy_check_mark:
@@ -19,3 +19,4 @@ The design patterns covered are:
  * [Template Method Pattern](template/) :heavy_check_mark:
  * [Iterator Pattern](iterator/) :heavy_check_mark:
  * [Composite Pattern](composite/) :heavy_check_mark:
+ * [State Pattern](state/) :heavy_check_mark:
