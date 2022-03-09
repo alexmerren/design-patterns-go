@@ -11,12 +11,12 @@ The design patterns covered are:
 
  * [Command Pattern](command/) :heavy_check_mark:
  * [Decorator Pattern](decorator/) :heavy_check_mark:
- * [Factory Method Pattern](factoryMethod/) :x:
+ * [Factory Method Pattern](factoryMethod/) :heavy_check_mark:
  * [Observer Pattern](observer/) :heavy_check_mark:
  * [Singleton Pattern](singleton/) :heavy_check_mark:
  * [Adapter Pattern](adapter/) :heavy_check_mark:
  * [Facade Pattern](facade/) :heavy_check_mark:
- * [Template Method Pattern](template/) :heavy_check_mark:
+ * [Template Method Pattern](templateMethod/) :heavy_check_mark:
  * [Iterator Pattern](iterator/) :heavy_check_mark:
  * [Composite Pattern](composite/) :heavy_check_mark:
  * [State Pattern](state/) :heavy_check_mark:
