@@ -20,3 +20,4 @@ The design patterns covered are:
  * [Iterator Pattern](iterator/) :heavy_check_mark:
  * [Composite Pattern](composite/) :heavy_check_mark:
  * [State Pattern](state/) :heavy_check_mark:
+ * [Proxy Pattern](proxy/) :x:
