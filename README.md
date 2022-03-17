@@ -1,13 +1,6 @@
-# Design Patterns in Golang 
+# Design Patterns 
 
-A repository that contains some popular design patterns implemented in Golang.
-
-I am basing a lot of the information contained in this repository from the book
-"Design Patterns: Elements of Reusable Object-Oriented Software"
-
-## Design Patterns
-
-The design patterns covered are:
+A collection of design patterns for the Go language. 
 
 * [Behavioural](behavioural/):
     * [Command Pattern](behavioural/command/) :heavy_check_mark:
