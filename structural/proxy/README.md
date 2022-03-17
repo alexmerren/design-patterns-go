@@ -2,12 +2,11 @@
 
 ## Intent
 
-The Proxy Pattern provides a surrogate or placeholder for another object to
-control access to it.
+The Proxy Pattern provides a surrogate or placeholder for another object to control access to it.
 
 ## Structure
 
-![](../data/proxy_pattern_uml.png) 
+![](../../data/proxy_pattern_uml.png) 
 
 ## Terminology
 
@@ -33,31 +32,13 @@ There are a few different forms of the Proxy Pattern that can be useful:
 
 ## Notes
 
-* The proxy pattern is a pattern to control and manage access to objects.
-
-* "The remove proxy acts as a local representative to a remote object" - Use an
-  object to act like a local object, but all the functionality is provided by
-  contacting a remote object via networks.
-
-* In the book they use Remote Method Invocation (RMI) in Java to mimick an
-  object but call a foreign object.
-
 * As this is written in java, there is a lot of work going on in the
   background to support this, like rmiregistry and remote exceptions,
   autogenerating the stub and skeleton services that RMI uses.
 
-* The object calls a function on the proxy, which then communicates to another
-  object (somewhere else) and then returns the value as if it is the object,
-  and not over the network
-
 * The Proxy pattern should be used to "create a representative object that
   control access to another object, which may be remote, expensive to create,
   or in need of securing."
-
-* There are a few different kinds of proxy:
-    - A remote proxy control access to a remote object.
-    - A virtual proxy controls access to a resource that is expensive to create
-    - A protection proxy control access to a resource based on access rights.
 
 * An example of a virtual proxy is an application that views CD covers:
     - A program will display "Loading CD cover, please wait..." while the bytes of the CV cover are being retrieved.

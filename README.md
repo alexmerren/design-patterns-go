@@ -9,15 +9,19 @@ I am basing a lot of the information contained in this repository from the book
 
 The design patterns covered are:
 
- * [Command Pattern](command/) :heavy_check_mark:
- * [Decorator Pattern](decorator/) :heavy_check_mark:
- * [Factory Method Pattern](factoryMethod/) :heavy_check_mark:
- * [Observer Pattern](observer/) :heavy_check_mark:
- * [Singleton Pattern](singleton/) :heavy_check_mark:
- * [Adapter Pattern](adapter/) :heavy_check_mark:
- * [Facade Pattern](facade/) :heavy_check_mark:
- * [Template Method Pattern](templateMethod/) :heavy_check_mark:
- * [Iterator Pattern](iterator/) :heavy_check_mark:
- * [Composite Pattern](composite/) :heavy_check_mark:
- * [State Pattern](state/) :heavy_check_mark:
- * [Proxy Pattern](proxy/) :x:
+* [Behavioural]():
+    * [Command Pattern](behavioural/command/) :heavy_check_mark:
+    * [Observer Pattern](behavioural/observer/) :heavy_check_mark:
+    * [Template Method Pattern](behavioural/templateMethod/) :heavy_check_mark:
+    * [Iterator Pattern](behavioural/iterator/) :heavy_check_mark:
+    * [State Pattern](behavioural/state/) :heavy_check_mark:
+* [Structural]():
+    * [Decorator Pattern](structural/decorator/) :heavy_check_mark:
+    * [Adapter Pattern](structural/adapter/) :heavy_check_mark:
+    * [Facade Pattern](structural/facade/) :heavy_check_mark:
+    * [Composite Pattern](structural/composite/) :heavy_check_mark:
+    * [Proxy Pattern](structural/proxy/) :x:
+* [Creational]():
+    * [Factory Method Pattern](creational/factoryMethod/) :heavy_check_mark:
+    * [Singleton Pattern](creational/singleton/) :heavy_check_mark:
+
