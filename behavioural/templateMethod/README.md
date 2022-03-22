@@ -8,7 +8,7 @@ algoithm without changing the algorithm's structure.
 
 ## Structure
 
-![](../data/template_method_pattern_uml.png)
+![](../../data/template_method_pattern_uml.png)
 
 ## Terminology
 

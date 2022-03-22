@@ -7,7 +7,7 @@ with different requests, queue or log requests, and support undoable oeprations.
 
 ## Structure
 
-![](../data/command_pattern_uml.png)
+![](../../data/command_pattern_uml.png)
 
 ## Terminology
 

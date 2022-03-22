@@ -1,22 +1,31 @@
-# Design Patterns in Golang 
+# Design Patterns in Golang
 
-A repository that contains some popular design patterns implemented in Golang.
+A collection of design patterns for the Go language. 
 
-I am basing a lot of the information contained in this repository from the book
-"Design Patterns: Elements of Reusable Object-Oriented Software"
+### Behavioural
 
-## Design Patterns
+| Name | Description | Status | 
+| ---- | ----------- | ------ |
+| [Command Pattern](behavioural/command/) | Encapsulate requests as objects. | :heavy_check_mark: |
+| [Observer Pattern](behavioural/observer/) | Extensible implementation of one-to-many relationships between objects. | :heavy_check_mark: |
+| [Template Method Pattern](behavioural/templateMethod/) | Defer steps of algorithms to subclasses. | :heavy_check_mark: |
+| [Iterator Pattern](behavioural/iterator/) | Abstract the iteration of objects. | :heavy_check_mark: |
+| [State Pattern](behavioural/state/) | Allowing objects to alter behaviour when an internal state changes. | :heavy_check_mark: |
 
-The design patterns covered are:
+### Structural
 
- * [Command Pattern](command/) :heavy_check_mark:
- * [Decorator Pattern](decorator/) :heavy_check_mark:
- * [Factory Method Pattern](factoryMethod/) :heavy_check_mark:
- * [Observer Pattern](observer/) :heavy_check_mark:
- * [Singleton Pattern](singleton/) :heavy_check_mark:
- * [Adapter Pattern](adapter/) :heavy_check_mark:
- * [Facade Pattern](facade/) :heavy_check_mark:
- * [Template Method Pattern](templateMethod/) :heavy_check_mark:
- * [Iterator Pattern](iterator/) :heavy_check_mark:
- * [Composite Pattern](composite/) :heavy_check_mark:
- * [State Pattern](state/) :heavy_check_mark:
+| Name | Description | Status | 
+| ---- | ----------- | ------ |
+| [Decorator Pattern](structural/decorator/) | Attach additional functionality to objects dynamically. | :heavy_check_mark: |
+| [Adapter Pattern](structural/adapter/) | Give an object an interface that is compatible with a different system. | :heavy_check_mark: |
+| [Facade Pattern](structural/facade/) | Hide the complexities of a class behind a simple interface. | :heavy_check_mark: |
+| [Composite Pattern](structural/composite/) | Represent part-whole hierarchies through tree structures. | :heavy_check_mark: | 
+| [Proxy Pattern](structural/proxy/) | Control access to another object by providing a surrogate. | :heavy_check_mark: |
+
+### Creational
+
+| Name | Description | Status | 
+| ---- | ----------- | ------ |
+| [Factory Method Pattern](creational/factoryMethod/) | Let subclasses of a factory define what objects to create. | :heavy_check_mark: |
+| [Singleton Pattern](creational/singleton/) | Ensure that there is only one instance of a class globally. |:heavy_check_mark: |
+

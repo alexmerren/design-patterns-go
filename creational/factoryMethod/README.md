@@ -8,7 +8,7 @@ subclasses.
 
 ## Structure
 
-![](../data/factory_method_pattern_uml.png)
+![](../../data/factory_method_pattern_uml.png)
 
 ## Terminology
 

@@ -2,13 +2,13 @@
 
 ## Intent
 
-Compose objects into tree structures to represent part-whole ieracrchies.
+Compose objects into tree structures to represent part-whole hierarchies.
 Composite lets clients treat individual objects and compositions of objects
 uniformly.
 
 ## Structure
 
-![](../data/composite_pattern_uml.png) 
+![](../../data/composite_pattern_uml.png) 
 
 ## Terminology
 

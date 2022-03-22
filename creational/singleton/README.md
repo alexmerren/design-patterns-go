@@ -6,7 +6,7 @@ Ensure a class only has one instance, and provide a global point of access to it
 
 ## Structure
 
-![](../data/singleton_pattern_uml.png)
+![](../../data/singleton_pattern_uml.png)
 
 ## Terminology
 

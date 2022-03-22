@@ -7,7 +7,7 @@ provide a flexible alternative to subclassing for extending functionality.
 
 ## Structure
 
-![](../data/decorator_pattern_uml.png)
+![](../../data/decorator_pattern_uml.png)
 
 ## Terminology
 
