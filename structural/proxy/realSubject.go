@@ -12,16 +12,20 @@ func NewBankAccount(name string, initialBalancePence int) *BankAccount {
 	}
 }
 
-func (b *BankAccount) Deposit(amountPence int) int {
+func (b *BankAccount) Deposit(amountPence int) (int, error) {
 	b.balancePence += amountPence
-	return b.balancePence
+	return b.balancePence, nil
 }
 
-func (b *BankAccount) Withdraw(amountPence int) int {
+func (b *BankAccount) Withdraw(amountPence int) (int, error) {
 	b.balancePence -= amountPence
-	return b.balancePence
+	return b.balancePence, nil
 }
 
-func (b *BankAccount) GetBalance() int {
-	return b.balancePence
+func (b *BankAccount) GetBalance() (int, error) {
+	return b.balancePence, nil
+}
+
+func (b *BankAccount) GetName() string {
+	return b.name
 }

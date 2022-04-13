@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 const (
 	overdraftLimit   = -100_00
 	suspiciousAmount = 10_000_00
@@ -15,30 +19,25 @@ func NewProxyBankAccount(name string, balancePence int) *ProxyBankAccount {
 	}
 }
 
-func (b *ProxyBankAccount) Deposit(amountPence int) int {
-	// We should probably tell someone that a suspicious amount of money is being deposited
+func (b *ProxyBankAccount) Deposit(amountPence int) (int, error) {
 	if amountPence >= suspiciousAmount {
+		fmt.Println("The amount requested is suspicious...")
 	}
 	return b.account.Deposit(amountPence)
 }
 
-func (b *ProxyBankAccount) Withdraw(amountPence int) int {
-	// We should probably tell someone that a suspicious amount of money is being withdrawn
+func (b *ProxyBankAccount) Withdraw(amountPence int) (int, error) {
 	if amountPence >= suspiciousAmount {
+		fmt.Println("The amount requested is suspicious...")
 	}
 
-	// In reality, this would probably be done with command pattern so
-	// undo() can be called, but since we know that the withdraw() and
-	// deposit() functions are just adding and subtracting from balance,
-	// this is okay.
-	balance := b.account.Withdraw(amountPence)
-	if balance <= overdraftLimit {
-		b.account.Deposit(amountPence)
-		return 0
-	}
-	return balance
+	return b.account.Withdraw(amountPence)
 }
 
-func (b *ProxyBankAccount) GetBalance() int {
+func (b *ProxyBankAccount) GetBalance() (int, error) {
 	return b.account.GetBalance()
+}
+
+func (b *ProxyBankAccount) GetName() string {
+	return b.account.GetName()
 }

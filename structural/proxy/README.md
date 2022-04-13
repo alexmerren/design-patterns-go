@@ -32,8 +32,8 @@ There are a few different forms of the Proxy Pattern that can be useful:
 
 ## Notes
 
-* As this is written in java, there is a lot of work going on in the
-  background to support this, like rmiregistry and remote exceptions,
+* As the Head First book is written in java, there is a lot of work going on in
+  the background to support this, like rmiregistry and remote exceptions,
   autogenerating the stub and skeleton services that RMI uses.
 
 * The Proxy pattern should be used to "create a representative object that
@@ -51,7 +51,7 @@ There are a few different forms of the Proxy Pattern that can be useful:
 
 * A few examples of proxy patterns:
     - Firewall (control access to network resources)
-    - Smart Reference (provides actions whenever referenced)
+    - Metrics/Smart Reference (provides actions whenever referenced)
     - Caching (provides temporary storage for expensive operations)
     - Synchronization (provides safe access from multiple threads)
     - Complexity Hiding (hides complexiy and controls access to complex set of classes)
