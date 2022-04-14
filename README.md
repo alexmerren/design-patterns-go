@@ -28,4 +28,3 @@ A collection of design patterns for the Go language.
 | ---- | ----------- | ------ |
 | [Factory Method Pattern](creational/factoryMethod/) | Let subclasses of a factory define what objects to create. | :heavy_check_mark: |
 | [Singleton Pattern](creational/singleton/) | Ensure that there is only one instance of a class globally. |:heavy_check_mark: |
-
