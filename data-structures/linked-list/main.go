@@ -2,38 +2,50 @@ package main
 
 import "fmt"
 
-func runTest(listHead *ListNode) {
-	result := hasCycle(listHead)
-	fmt.Println(result)
+func prepareTestCase1() *ListNode {
+	head := NewListNode(3)
+	second := NewListNode(2)
+	head.next = second
+	third := NewListNode(0)
+	second.next = third
+	fourth := NewListNode(-4)
+	third.next = fourth
+	fourth.next = second
+	return head
 }
 
-func testCase1() {
-	tc1_Head := NewListNode(3)
-	tc1_Second := NewListNode(2)
-	tc1_Head.next = tc1_Second
-	tc1_Third := NewListNode(0)
-	tc1_Second.next = tc1_Third
-	tc1_Fourth := NewListNode(-4)
-	tc1_Third.next = tc1_Fourth
-	tc1_Fourth.next = tc1_Second
-	runTest(tc1_Head)
+func prepareTestCase2() *ListNode {
+	head := NewListNode(1)
+	second := NewListNode(2)
+	head.next = second
+	second.next = head
+	return head
 }
 
-func testCase2() {
-	tc2_Head := NewListNode(1)
-	tc2_Second := NewListNode(2)
-	tc2_Head.next = tc2_Second
-	tc2_Second.next = tc2_Head
-	runTest(tc2_Head)
+func prepareTestCase3() *ListNode {
+	return NewListNode(1)
 }
 
-func testCase3() {
-	tc3 := NewListNode(1)
-	runTest(tc3)
+func prepareTestCase4() *ListNode {
+	head := NewListNode(1)
+	second := NewListNode(2)
+	head.next = second
+	third := NewListNode(3)
+	second.next = third
+	fourth := NewListNode(4)
+	third.next = fourth
+	fourth.next = head
+	return head
 }
 
 func main() {
-	testCase1()
-	//testCase2()
-	//testCase3()
+	first := prepareTestCase1()
+	second := prepareTestCase2()
+	third := prepareTestCase3()
+	fourth := prepareTestCase4()
+
+	fmt.Println(hasCycle(first))
+	fmt.Println(hasCycle(second))
+	fmt.Println(hasCycle(third))
+	fmt.Println(hasCycle(fourth))
 }

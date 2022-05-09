@@ -1,11 +1,14 @@
 package main
 
-import "fmt"
-
 func hasCycle(listHead *ListNode) bool {
-	for listHead.next != nil {
-		fmt.Println(listHead.value)
-		listHead = listHead.next
+	slowPointer := listHead
+	fastPointer := listHead
+	for fastPointer != nil && fastPointer.next != nil {
+		slowPointer = slowPointer.next
+		fastPointer = fastPointer.next.next
+		if slowPointer == fastPointer {
+			return true
+		}
 	}
-	return true
+	return false
 }
