@@ -8,7 +8,7 @@ uniformly.
 
 ## Structure
 
-![](../../data/composite_pattern_uml.png) 
+![](../../resources/composite_pattern_uml.png) 
 
 ## Terminology
 

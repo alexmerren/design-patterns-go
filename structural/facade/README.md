@@ -7,7 +7,7 @@ defines a higher-level interface that makes the subsystem easier to use.
 
 ## Structure
 
-![](../../data/facade_pattern_uml.png)
+![](../../resources/facade_pattern_uml.png)
 
 ## Terminology
 

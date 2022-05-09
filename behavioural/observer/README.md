@@ -7,7 +7,7 @@ state, all its dependents are notified and updated automatically.
 
 ## Structure
 
-![](../../data/observer_pattern_uml.png) 
+![](../../resources/observer_pattern_uml.png) 
 
 ## Terminology
 

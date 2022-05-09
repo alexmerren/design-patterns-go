@@ -7,7 +7,7 @@ object will appear to change its class.
 
 ## Structure
 
-![](../../data/state_pattern_uml.png)
+![](../../resources/state_pattern_uml.png)
 
 ## Terminology
 

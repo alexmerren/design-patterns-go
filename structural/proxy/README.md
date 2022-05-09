@@ -6,7 +6,7 @@ The Proxy Pattern provides a surrogate or placeholder for another object to cont
 
 ## Structure
 
-![](../../data/proxy_pattern_uml.png) 
+![](../../resources/proxy_pattern_uml.png) 
 
 ## Terminology
 

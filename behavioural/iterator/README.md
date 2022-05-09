@@ -7,7 +7,7 @@ object sequentially without exposing its underlying representation.
 
 ## Structure
 
-![](../../data/iterator_pattern_uml.gif) 
+![](../../resources/iterator_pattern_uml.gif) 
 
 ## Terminology
 

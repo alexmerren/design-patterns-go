@@ -8,7 +8,7 @@ interfaces.
 
 ## Structure
 
-![](../../data/adapter_pattern_uml.png)
+![](../../resources/adapter_pattern_uml.png)
 
 ## Terminology
 
